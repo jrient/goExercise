@@ -24,7 +24,8 @@
         - 不要在 String() 方法里面调用涉及 String() 方法的方法，它会导致意料之外的错误
         - [strconv包的使用][7]
         - 关于代码过长[续行][8]
-
+        - func (self *Stack) String() string { return "a" }  使用 *Stack 执行输出就走不到这里
+        
 
   [1]: https://legacy.gitbook.com/book/zengweigang/core-go/details
   [2]: https://zengweigang.gitbooks.io/core-go/content/eBook/10.3.html
