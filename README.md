@@ -25,7 +25,12 @@
         - [strconv包的使用][7]
         - 关于代码过长[续行][8]
         - func (self *Stack) String() string { return "a" }  使用 *Stack 执行输出就走不到这里
-        
+- 10.8 [垃圾回收和 SetFinalizer][9]
+    - runtime_gc(实际上只是一些runtime包功能的测试)
+        - [runtime文档][10]
+        - [runtime中文文档][11]
+        - [runtime中文详解][12]
+
 
   [1]: https://legacy.gitbook.com/book/zengweigang/core-go/details
   [2]: https://zengweigang.gitbooks.io/core-go/content/eBook/10.3.html
@@ -35,3 +40,7 @@
   [6]: https://zengweigang.gitbooks.io/core-go/content/eBook/10.7.html
   [7]: http://www.cnblogs.com/golove/p/3262925.html
   [8]: https://tonybai.com/2015/09/17/7-things-you-may-not-pay-attation-to-in-go/
+  [9]: https://zengweigang.gitbooks.io/core-go/content/eBook/10.8.html
+  [10]: https://golang.org/pkg/runtime/#MemStatsType
+  [11]: https://wizardforcel.gitbooks.io/golang-stdlib-ref/content/108.html
+  [12]: https://zhuanlan.zhihu.com/p/27328476
