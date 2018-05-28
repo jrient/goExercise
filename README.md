@@ -39,6 +39,11 @@
         - 按照约定，只包含一个方法的）接口的名字由方法名加 [e]r 后缀组成
         - 接口变量的类型随着赋值变量的类型而改变（前提是赋值变量实现了接口）
 
+- 11.3 [断言类型][14]
+    - type_interfaces
+        - 如果忽略 interfaceValue.(*Type) 中的 * 号，会导致编译错误
+        
+
   [1]: https://legacy.gitbook.com/book/zengweigang/core-go/details
   [2]: https://zengweigang.gitbooks.io/core-go/content/eBook/10.3.html
   [3]: https://zengweigang.gitbooks.io/core-go/content/eBook/10.4.html
@@ -52,3 +57,4 @@
   [11]: https://wizardforcel.gitbooks.io/golang-stdlib-ref/content/108.html
   [12]: https://zhuanlan.zhihu.com/p/27328476
   [13]: https://zengweigang.gitbooks.io/core-go/content/eBook/11.1.html
+  [14]: https://zengweigang.gitbooks.io/core-go/content/eBook/11.3.html
