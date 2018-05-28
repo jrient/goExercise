@@ -1,4 +1,8 @@
-#Golang 练习记录
+# Golang 练习记录
+
+标签（空格分隔）： go
+
+---
 
 书籍 《[Go入门指南》][1]
 
@@ -30,7 +34,10 @@
         - [runtime文档][10]
         - [runtime中文文档][11]
         - [runtime中文详解][12]
-
+- 11.1 [接口是什么][13]
+    - interfaces
+        - 按照约定，只包含一个方法的）接口的名字由方法名加 [e]r 后缀组成
+        - 接口变量的类型随着赋值变量的类型而改变（前提是赋值变量实现了接口）
 
   [1]: https://legacy.gitbook.com/book/zengweigang/core-go/details
   [2]: https://zengweigang.gitbooks.io/core-go/content/eBook/10.3.html
@@ -44,3 +51,4 @@
   [10]: https://golang.org/pkg/runtime/#MemStatsType
   [11]: https://wizardforcel.gitbooks.io/golang-stdlib-ref/content/108.html
   [12]: https://zhuanlan.zhihu.com/p/27328476
+  [13]: https://zengweigang.gitbooks.io/core-go/content/eBook/11.1.html
