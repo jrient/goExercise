@@ -38,12 +38,21 @@
     - interfaces
         - 按照约定，只包含一个方法的）接口的名字由方法名加 [e]r 后缀组成
         - 接口变量的类型随着赋值变量的类型而改变（前提是赋值变量实现了接口）
-
 - 11.3 [断言类型][14]
     - type_interfaces
         - 如果忽略 interfaceValue.(*Type) 中的 * 号，会导致编译错误
-        
+- 11.4 [type_switch类型判断](https://zengweigang.gitbooks.io/core-go/content/eBook/11.4.html)
+    - type_switch_interfaces
+        - type-switch 不允许有 fallthrough
+- 11.5 [使用方法集与接口](https://zengweigang.gitbooks.io/core-go/content/eBook/11.6.html)
+    - 指针方法可以通过指针调用
+    - 值方法可以通过值调用
+    - 接收者是值的方法可以通过指针调用，因为指针会首先被解引用
+    - 接收者是指针的方法不可以通过值调用，因为存储在接口中的值没有地址
+- 11.5 [第一个例子：使用 Sorter 接口排序](https://zengweigang.gitbooks.io/core-go/content/eBook/11.7.html)
+    - interfaces_sort_t
 
+        
   [1]: https://legacy.gitbook.com/book/zengweigang/core-go/details
   [2]: https://zengweigang.gitbooks.io/core-go/content/eBook/10.3.html
   [3]: https://zengweigang.gitbooks.io/core-go/content/eBook/10.4.html
