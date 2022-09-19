@@ -21,3 +21,6 @@
   - [switch](doc/04_流程控制/04.02_switch.md)
   - [for](doc/04_流程控制/04.03_for.md)
   - [break & continue](doc/04_流程控制/04.04_break&continue.md)
+- [函数](doc/05_函数/05_func.md)
+  - [参数与返回值](doc/05_函数/05.01_参数与返回值.md)
+  - 
