@@ -34,3 +34,11 @@
   - [切片](doc/06_数组与切片/06.02_切片.md)
   - [for-range](doc/06_数组与切片/06.03_for-range.md)
   - [应用](doc/06_数组与切片/06.04_应用.md)
+- map
+  - [初始化](doc/07_map/07.01_初始化.md)
+  - [删查](doc/07_map/07.02_删查.md)
+  - [for-range](doc/07_map/07.03_for-range.md)
+  - [map类型的切片](doc/07_map/07.04_map类型的切片.md)
+  - [排序](doc/07_map/07.05_map排序.md)
+  - [key-value对调](key-doc/07_map/07.06_key-value对调.md)
+- 
